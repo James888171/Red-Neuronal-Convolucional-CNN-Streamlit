@@ -57,8 +57,19 @@ Carga el modelo `models/cnn_cifar10.keras` y muestra la clase predicha con confi
 
 ## Resultados
 
-- Test accuracy: ~0.82
-- Se generan `outputs/training_history.png`, `outputs/confusion_matrix.png` y `outputs/predictions.png`.
+- Test accuracy: ~0.8220
+- Precision (macro): ~0.8251
+- Recall (macro): ~0.8220
+- F1-score (macro): ~0.8190
+
+Artefactos generados en `outputs/`:
+- `class_distribution.png`, `eda_samples.png`: exploracion del dataset.
+- `training_history.png`: curvas de loss/accuracy.
+- `confusion_matrix.png`: matriz de confusion.
+- `predictions.png`: minimo 10 predicciones.
+- `classification_report.txt`: reporte por clase.
+- `metrics.json`: metricas resumen.
+- `history.json`: historial de entrenamiento.
 
 ## Notas para Colab
 
