@@ -1,0 +1,10 @@
+tensorflow==2.21.0
+streamlit==1.66.0
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+pillow
+jupyter
+nbformat
